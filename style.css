@@ -1,0 +1,37 @@
+/* general and utility edits***************** */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navbar edits ****************************** */
+
+.navbar {
+    background-color: aqua;
+    height: 100px;
+
+}
+
+
+/* about me edits ************************** */
+
+.about {
+    background-color: pink;
+    height: 150px;
+}
+
+/* project edits ******************************** */
+
+.projectsContainer {
+    background-color: gray;
+    height: 300px;
+}
+
+/* resources ********************************* */
+
+.resources {
+    background-color: aqua;
+    height: 100px;
+}
