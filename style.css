@@ -7,34 +7,44 @@
 
 h3{
     text-align: center;
+    background-color: maroon;
+    color: white;
 }
-/* Navbar edits ****************************** */
+
+/* navbar edits ****************************** */
 
 .navbar {
-    background-color: aqua;
+    background-color: black;
     padding: 15px;
+    color: white;
 }
 
 /* about me edits ************************** */
 
 .about {
-    /* background-color: pink; */
     padding: 15px;
 }
 .about p {
     text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .selfImg {
     display: flex;
     justify-content: space-evenly;
-    height: 100px;
+    height: 200px;
+}
+.selfImg img{
+    border-radius: 30%;
 }
 
 /* project edits ******************************** */
 
 .projectsContainer {
-    /* background-color: gray; */
     padding: 15px;
+}
+.projects {
+    align-content: center;
 }
 .projectDivider {
     display: flex;
@@ -46,7 +56,6 @@ h3{
 /* resources ********************************* */
 
 .resources {
-    /* background-color: aqua; */
     padding: 15px;
     display: flex;
     justify-content: space-evenly;
