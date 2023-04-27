@@ -5,33 +5,52 @@
     padding: 0;
 }
 
-
+h3{
+    text-align: center;
+}
 /* Navbar edits ****************************** */
 
 .navbar {
     background-color: aqua;
-    height: 100px;
-
+    padding: 15px;
 }
-
 
 /* about me edits ************************** */
 
 .about {
-    background-color: pink;
-    height: 150px;
+    /* background-color: pink; */
+    padding: 15px;
+}
+.about p {
+    text-align: center;
+}
+.selfImg {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
 }
 
 /* project edits ******************************** */
 
 .projectsContainer {
-    background-color: gray;
-    height: 300px;
+    /* background-color: gray; */
+    padding: 15px;
+}
+.projectDivider {
+    display: flex;
+}
+.projects img {
+    height: 100px;
 }
 
 /* resources ********************************* */
 
 .resources {
-    background-color: aqua;
-    height: 100px;
+    /* background-color: aqua; */
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.resources img {
+    height: 50px;
 }
